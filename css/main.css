@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(animate.css);
+
+.header {
+	background: url(../img/header/headerbg1.jpg) center center fixed;
+	background: #444 url(/assets/images/header/headerbg1.jpg) center center fixed;
+  	background-position: 0px 0px;
+  	background-repeat: repeat-x;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	min-height: 100%;
+  	position: relative;
+ }
+
+ .text-center {
+  text-align: center !important; }
+
+ #clogo {
+ 	margin-top: 12.5%;
+ }
+
+ #logo {
+	margin: 20px 0 0 0;
+  	width: 403px;
+  	height: 93px;
+	background: url(../img/ekeberg-logo.png) no-repeat;
+	background: url(/assets/images/ekeberg-logo.png) no-repeat;
+  	background-size: 403px 93px;
+}
+
+.ph {
+	width:50%;
+	margin: 0 auto
+}
+
+.header p {
+	color:#fff;
+	font-size:1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+	.header p {
+		font-size: 1em;
+	}
+}
+
+ h1 {
+ 	font-family: "Karla";
+ }
+
+p {
+	font-family: "Karla";
+}
+
+/*
+:::  Links
+-------------------------------------------------- */
+a {
+	color: #222;
+	text-decoration: none;
+	transition: color .3s, background .3s, border .3s;
+}
+a:hover {
+	color: red;
+}
+.text a {
+	border-bottom: 2px solid #ddd;
+}
+.text a:hover {
+	border-color: #222;
+}
+
+.hlink a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.75em;
+	transition: color .3s, background .3s, border .3s;
+}
+
+.hlink a:hover {
+	color: #ddd;
+	border-bottom: 2px solid red;
+}
