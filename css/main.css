@@ -3,7 +3,7 @@
 
 .header {
 	background: url(../img/header/headerbg1.jpg) center center fixed;
-	background: #444 url(/assets/images/header/headerbg1.jpg) center center fixed;
+	background: #444 url(../img/header/headerbg1.jpg) center center fixed;
   	background-position: 0px 0px;
   	background-repeat: repeat-x;
   	-webkit-background-size: cover;
